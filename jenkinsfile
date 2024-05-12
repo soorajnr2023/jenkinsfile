@@ -1,11 +1,11 @@
-jenkins file created for CI and CD
-
-
-second line added and saved
-
-Kubernetes files added to check conflict exist.
-ksfmskldfmklmsdfklmsd;f
-sf,m sdfkmmskldfmkjsdmf
-skmnskdjfnsdkjfnkjdsnfkjdsnfs
- skdfnkjsdnfkjsndfkjnsdkjfnksjf
-kfjnkjkjkjnkjnjskfnjsfml  j sdjfnsdfkmdsjfskmfjsdfkjksdnkjsdf
+pipeline{
+agent any
+stages{
+ stage('Printing a message '){
+steps{
+    echo"hello maven and other world"
+    sh 'mvn --version'
+}
+}
+}
+}

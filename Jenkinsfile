@@ -7,5 +7,15 @@ steps{
     sh 'mvn --version'
 }
 }
+ stage('stge 2'){
+steps{
+    echo"printing 2nd stage"
+}
+}
+ stage('this is stage 3'){
+steps{
+    echo"printing 3rd stage"
+}
+}
 }
 }
